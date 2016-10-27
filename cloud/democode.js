@@ -2,7 +2,7 @@
 
 Parse.Cloud.define("getData", function (request, response) {
     var insteractQuery = new Parse.Query("Insteract");
-    var pageSize = request.params.pageSize;
+    var pageSize = parseInt(request.params.pageSize);
     var sortType = request.params.sortType;
     if (!pageSize){
         pageSize = 100000; //for now keep a big number
