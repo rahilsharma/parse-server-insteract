@@ -80,5 +80,4 @@ else {
     app.listen(port, function () {
         console.log('parse-server-example running on port ' + port + '.');
     });
-
 }

@@ -1,1 +1,1 @@
-require('cloud/democode.js');
+require('./democode.js');
