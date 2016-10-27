@@ -1,6 +1,6 @@
 # parse-server-insteract
 parse-server demo with dashboard integrated
-
+USAGE : node app.js
 ###########################################################################################
 NOTES:
 
